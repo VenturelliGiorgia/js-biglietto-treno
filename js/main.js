@@ -8,12 +8,12 @@ console.log(age);
 if (age < 18) {
     const costoTotal = costoKmTotal * .80;
     let num = costoTotal.toFixed(2);
-    paragrafo.innerHTML = `<strong>${num}</strong>`;
+    paragrafo.innerHTML = `Costo biglietto, con l'aggiunta del 20% di sconto: <strong> ${num}Є</strong>`;
 } else if (age >= 65) {
     const costoTotal = costoKmTotal * .60;
     let num = costoTotal.toFixed(2);
-    paragrafo.innerHTML = `<strong>${num}</strong>`
+    paragrafo.innerHTML = `Costo biglietto, con l'aggiunta del 40% di sconto: <strong>${num}Є</strong>`
 } else {
     let num = costoKmTotal.toFixed(2);
-    paragrafo.innerHTML = `<strong>${num}</strong>`
+    paragrafo.innerHTML = `Costo biglietto: <strong>${num}Є</strong>`
 }
